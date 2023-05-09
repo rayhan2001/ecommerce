@@ -24,6 +24,31 @@ use App\Http\Controllers\ProductController;
 Route::get('/',[FrontendController::class,'index'])->name('home');
 Route::get('/product-view{id}',[FrontendController::class,'productView'])->name('product.view');
 
+// class Car extends Engine{
+//     private $color;
+//     public function __constactor($color = null)
+//     {
+//         $this->color = $color;
+//     }
+//     public function Function1(Type $var = null)
+//     {
+//         # code...
+//     }
+
+//     public function Function2(Type $var = null)
+//     {
+//         # code...
+//     }
+// }
+
+// class Engine{
+//     private $type1;
+//     private $type2;
+// }
+
+// $function1  = new Car('Green');
+
+// $function2 = new Car('Blue');
 
 
 
